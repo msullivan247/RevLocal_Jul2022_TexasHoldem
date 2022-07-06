@@ -1,0 +1,25 @@
+{
+  "name": "revlocal_jul2022_texasholdem",
+  "version": "1.0.0",
+  "description": "RevLocal_Jul2022_TexasHoldem",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msullivan247/RevLocal_Jul2022_TexasHoldem.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Matthew Sullivan msullivan@revlocal.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msullivan247/RevLocal_Jul2022_TexasHoldem/issues"
+  },
+  "homepage": "https://github.com/msullivan247/RevLocal_Jul2022_TexasHoldem#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
