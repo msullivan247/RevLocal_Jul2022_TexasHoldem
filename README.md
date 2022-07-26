@@ -20,8 +20,8 @@ For Straights with an Ace, only the ace-high straight is accepted. An ace-low st
 
 Example results:
 
-hand(["AS", "AD"], ["JC", "5H", "10H", "2H", "3D"])
+hand(["A♠", "A♦"], ["J♣", "5♥", "10♥", "2♥", "3♦"])
 // ...should return {type: "pair", ranks: ["A", "J", "10", "5"]}
 
-hand(["AS", "KD"], ["JH", "5H", "10H", "QH", "3H"])
+hand(["A♠", "K♦"], ["J♥", "5♥", "10♥", "Q♥", "3♥"])
 // ...should return {type: "flush", ranks: ["Q", "J", "10", "5", "3"]}

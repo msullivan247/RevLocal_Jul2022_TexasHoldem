@@ -122,7 +122,7 @@ distinct = values => {
 }
 
 checkFlush = cards => {
-    for (let suit of ["S", "H", "D", "C"]) {
+    for (let suit of ["♠", "♥", "♦", "♣"]) {
         if (cards.filter(c => c.suit === suit).length >= 5) {
             return [true, cards.filter(c => c.suit === suit)];
         }
